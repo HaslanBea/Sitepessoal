@@ -1,0 +1,29 @@
+# Ignora a pasta node_modules
+node_modules/
+
+# Ignora arquivos de ambiente (não versionar variáveis sensíveis)
+.env
+.env.local
+
+# Ignora logs e diretórios de debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignora arquivos de configuração local
+.eslintcache
+.pnp*
+
+# Ignora diretórios de build/dist
+dist/
+build/
+out/
+
+# Ignora arquivos de IDE/Editor
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
